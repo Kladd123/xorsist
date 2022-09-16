@@ -9,20 +9,12 @@
   justify-content: center;
   align-items: center;
 }
-main a,
 p {
   font-size: max(1vw, 19px);
-  -webkit-text-stroke: 0.02vw #346398;
-}
-.indexdel a,
-p {
+  -webkit-text-stroke: 0.02vw #c41508;
   overflow-wrap: break-word;
-}
-a,
-p {
-  text-decoration: none;
   text-align: center;
-  -webkit-text-stroke: 0.02vw #346398;
+  padding-top: 1.5vw;
 }
 a:hover {
   color: grey;
@@ -35,44 +27,37 @@ a:hover {
 }
 main {
   background-image: url(bilder/bakgrund.jpg);
-  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 3em;
-  padding-bottom: 2em;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .indexdel {
-  width: 60vw;
   min-width: 270px;
   border: solid#113864 4px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
   background-image: url(bilder/band-members.jpg);
   background-position: center;
   background-size: cover;
 }
-.indexdel a,
-.indexdel p {
-  padding-top: 1.5vw;
-}
+
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.indexdel img {
-  margin-top: 0.3em;
-}
 @media (max-width: 839px) {
   .indexdel {
     min-height: 30vh;
+    width: 50vw;
   }
 }
 @media (min-width: 839px) {
   .indexdel {
     min-height: 80vh;
+    width: 70vw;
   }
 }
 .logga {
