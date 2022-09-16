@@ -14,8 +14,8 @@ p {
   font-size: max(1vw, 19px);
   -webkit-text-stroke: 0.02vw #c41508;
   overflow-wrap: break-word;
-  padding-top: 0.5vw;
-  padding-bottom: 0.5vw;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
 }
 
 .social-media img:hover {
