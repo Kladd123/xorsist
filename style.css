@@ -23,7 +23,7 @@ p {
   box-shadow: 0 10px 30px rgba(17, 72, 224, 0.3);
 }
 main {
-  background-image: url(bilder/bakgrund.jpg);
+  background-image: url(bilder/bakgrund.webp);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -36,7 +36,7 @@ main {
   position: relative;
   min-width: 270px;
   border: solid#113864 4px;
-  background-image: url(bilder/band-members.jpg);
+  background-image: url(bilder/band-members.webp);
   background-position: center;
   background-size: cover;
 }
