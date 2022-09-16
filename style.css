@@ -3,58 +3,18 @@
   margin: 0;
   color: #c41508;
 }
-
-.knapp-bild-mindre {
-  width: 11.3vw;
-  min-width: 113px;
-}
-
-@media (min-width: 1228px) {
-  #english-website {
-    padding-top: 3em;
-  }
-  #english-website {
-    float: left;
-  }
-}
-
-@media (max-width: 1228px) {
-  #english-website {
-    padding-top: 2em;
-  }
-  #english-website {
-    float: left;
-  }
-}
-
-ul {
-  margin-top: 2em;
-}
-h1 {
-  text-align: center;
-  -webkit-text-stroke: 0.07vw #000;
-}
-h2 {
-  text-align: center;
-  -webkit-text-stroke: 0.05vw #000;
-}
-
 #prenumerera {
   margin-top: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-p,
 main a,
-li {
+p {
   font-size: max(1vw, 19px);
-  -webkit-text-stroke: 0.02vw #c41508;
+  -webkit-text-stroke: 0.02vw #346398;
 }
-
 .indexdel a,
-li,
 p {
   overflow-wrap: break-word;
 }
@@ -62,27 +22,17 @@ a,
 p {
   text-decoration: none;
   text-align: center;
+  -webkit-text-stroke: 0.02vw #346398;
 }
-main a,
-main p {
-  -webkit-text-stroke: 0.02vw #c41508;
-}
-footer p {
-  -webkit-text-stroke: 0.04vw #000;
-}
-
-a p:hover,
 a:hover {
   color: grey;
   transition: 0.2s ease-in-out;
 }
-main img:hover,
-#english-website img:hover {
+.social-media img:hover {
   transition: 0.2s ease-in-out;
   transform: scale(1.05);
-  box-shadow: 0 10px 30px rgba(196, 174, 8, 0.3);
+  box-shadow: 0 10px 30px rgba(17, 72, 224, 0.3);
 }
-
 main {
   background-image: url(bilder/bakgrund.jpg);
   background-position: left;
@@ -92,17 +42,10 @@ main {
   padding-bottom: 2em;
   min-height: 100vh;
 }
-header {
-  border: solid#c41508 5px;
-  background-image: url(bilder/stora-nordiska-kriget-karta.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .indexdel {
   width: 60vw;
   min-width: 270px;
-  border: solid#c41508 4px;
+  border: solid#113864 4px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
@@ -110,18 +53,6 @@ header {
   background-position: center;
   background-size: cover;
 }
-.steamdel,
-.steamdeltva,
-.steamdeltre {
-  display: block;
-  padding-top: 1vw;
-  width: max-content;
-  margin-left: auto;
-  margin-right: auto;
-  background-position: center;
-  background-size: cover;
-}
-
 .indexdel a,
 .indexdel p {
   padding-top: 1.5vw;
@@ -134,31 +65,6 @@ img {
 .indexdel img {
   margin-top: 0.3em;
 }
-@media screen and (max-width: 841px) {
-  .steamdel {
-    display: none;
-  }
-}
-@media screen and (min-width: 841px) {
-  .steamdeltva {
-    display: none;
-  }
-}
-@media (max-width: 588px) {
-  .steamdeltva,
-  .steamdeltre {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-  }
-  main {
-    background-image: url(bilder/bakgrund.jpg);
-  }
-}
-@media (min-width: 589px) {
-  main {
-    background-image: url(bilder/bakgrund.jpg);
-  }
-}
 @media (max-width: 839px) {
   .indexdel {
     min-height: 30vh;
@@ -168,10 +74,6 @@ img {
   .indexdel {
     min-height: 80vh;
   }
-}
-.knapp-bild {
-  width: 20vw;
-  min-width: 180px;
 }
 .logga {
   width: 8vw;
@@ -185,14 +87,12 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
 }
-
 .indexdel {
   position: relative;
 }
-
 .botten {
   position: absolute;
   bottom: 0;
