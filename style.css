@@ -1,20 +1,11 @@
-@import url(//db.onlinewebfonts.com/c/f3258385782c4c96aa24fe8b5d5f9782?family=Old+English+Text+MT);
 @font-face {
-  font-family: "Old English Text MT";
-  src: url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.eot");
-  src: url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.svg#Old English Text MT")
-      format("svg");
+  font-family: font;
+  src: url(font.ttf);
+  font-display: swap;
 }
+
 * {
-  font-family: "Old English Text MT", sans-serif;
+  font-family: font;
   margin: 0;
   color: #c41508;
   text-align: center;
@@ -26,7 +17,7 @@ a {
   align-items: center;
 }
 p {
-  font-size: max(1.5vw, 21px);
+  font-size: max(2.5vw, 30px);
   -webkit-text-stroke: 0.02vw #c41508;
   overflow-wrap: break-word;
   padding-top: 0.5vh;
